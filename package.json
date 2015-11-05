@@ -1,0 +1,28 @@
+{
+  "name": "localytics",
+  "version": "0.0.1",
+  "description": "Localytics API wrapper",
+  "main": "./lib/localytics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meehow/node-localytics.git"
+  },
+  "keywords": [
+    "localytics",
+    "api",
+    "iPhone",
+    "iOS",
+    "Android",
+    "push",
+    "notification"
+  ],
+  "author": "meehow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meehow/node-localytics/issues"
+  },
+  "homepage": "https://github.com/meehow/node-localytics#readme"
+}
