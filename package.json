@@ -1,6 +1,6 @@
 {
   "name": "localytics",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Localytics API wrapper",
   "main": "./lib/localytics.js",
   "scripts": {

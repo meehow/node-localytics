@@ -5,6 +5,9 @@
 - Don't require external modules
 - Capable of using Keep-Alive connections
 
+So far only [Profiles API](http://docs.localytics.com/index.html#Dev/Profiles/api.html)
+is implemented.
+
 Installation
 ============
 
@@ -37,6 +40,15 @@ localytics.setProfile('Bob', {
   toDelete: null,
 }).then(console.log).catch(console.log);
 ```
+
+Promises
+=========
+
+### `setProfile(id, data)`
+
+### `getProfile(id)`
+
+### `deleteProfile(id)`
 
 To Do
 =====
