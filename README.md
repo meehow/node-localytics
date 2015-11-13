@@ -1,4 +1,4 @@
-[Localytics](http://docs.localytics.com/#Dev/api-title.html) API wrapper.
+[Localytics](http://www.localytics.com/) API wrapper.
 
 - Configurable from __env__ variables or a source code
 - Returns a promise
