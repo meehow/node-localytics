@@ -35,7 +35,7 @@ Example
 var localytics = require('localytics')();
 
 localytics.setProfile('Bob', {
-  "$first_name": 'Bob',
+  $first_name: 'Bob',
   favoriteNumber: 7,
   toDelete: null,
 }).then(console.log).catch(console.log);

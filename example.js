@@ -1,7 +1,8 @@
 'use strict';
 
-var localytics = require('localytics')();
+var localytics = require('localytics')('', '');
 
-localytics.setProfile('552bc23ef2eeb6ff036a0f45', {
-  fullyRegistered: 1,
+localytics.setProfile('Bob', {
+  $first_name: 'Bob',
+  favoriteNumber: 7,
 }).then(console.log).catch(console.log);
